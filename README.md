@@ -3,8 +3,9 @@
 1. 新增tensorboard模块
 2. 新增实验4，探索DIN模型张指标的优化点
 3. 优化混合精排模型（v1版似乎存在数据泄露的问题）
-4. ddp训练（失败、、、）
-5. ......（本人能力有限，欢迎大家改进）
+4. 负样本从均衡抽样→困难负样本，实现真实场景的训练方式
+5. ddp训练（失败、、、）
+6. ......（本人能力有限，欢迎大家改进）
 
 <p align="center">
   <img src="https://img.shields.io/badge/PyTorch-2.0+-red.svg" alt="PyTorch">
@@ -216,4 +217,5 @@ MIT License - 可自由使用于学习和研究目的
 <p align="center">
   <b>如果这个项目对你有帮助，欢迎 ⭐ Star</b>
 </p>
+
 
